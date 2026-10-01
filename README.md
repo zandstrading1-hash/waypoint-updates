@@ -20,16 +20,19 @@ Use Wi-Fi with LocalDevVPN connected. Before updating, Stop & restore in Waypoin
 and independently check Maps, Find My, and nearby accessories. Refresh both
 Waypoint and SideStore before their seven-day signing countdown expires.
 
-## 0.1.6 (8)
+## 0.1.7 (9)
 
-Adds a four-second local connection check without changing location. Includes
-continuous area walking, a full-height scrolling options panel, and corrected
-Light/Dark appearance. Compilation and native logic checks passed. Seven existing simulator flows passed
-on the first diagnostic candidate; the corrected candidate passed its focused
-connection cancellation/result test. The pending Cancel control was visually
-reviewed. Physical performance and cellular operation still need testing.
-This build does not fix cellular startup or cellular restoration. Force-quitting
-the app is not supported for continued holding.
+Adds one consent screen before the map with an **OK, I consent** button.
+Acceptance is stored only on your phone and remembered after relaunch. No new
+account, hosted consent service, telemetry or permissions are added. Light and
+dark appearance are supported; recovery controls remain available for a pending
+restoration. The device connection and location engine are unchanged.
+
+Compilation, native logic checks and three focused simulator UI tests passed:
+consent in both themes, acceptance and relaunch persistence, map/search access,
+and pending restoration access. Physical installation and wireless update
+adoption still need on-phone verification. Cellular startup/restoration remain
+unreliable, and force-quitting the app is not supported for continued holding.
 
 The matching source archive includes build scripts, Swift code and checks,
 artwork, dependency pins and license notices. SHA256SUMS.txt identifies all

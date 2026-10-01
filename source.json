@@ -14,6 +14,14 @@
       "tintColor": "065744",
       "versions": [
         {
+          "version": "0.1.7",
+          "date": "2026-10-01",
+          "localizedDescription": "Adds a one-time consent screen with an OK, I consent button. Acceptance stays on your phone. Light/dark appearance and restoration access are preserved. This update does not fix cellular reliability. Stop and restore before updating the existing app.",
+          "downloadURL": "https://raw.githubusercontent.com/zandstrading1-hash/waypoint-updates/main/WaypointPhone-0.1.7-5b3fef820d1d.ipa",
+          "size": 2368591,
+          "minOSVersion": "17.4"
+        },
+        {
           "version": "0.1.6",
           "date": "2026-10-01",
           "localizedDescription": "Adds a no-location Wi-Fi/cellular connection check. Includes continuous area walking, a scrolling options panel, and corrected Light/Dark appearance. Cellular startup and restoration remain unreliable. Stop and restore before updating the existing app. Free signing still needs weekly refresh.",
