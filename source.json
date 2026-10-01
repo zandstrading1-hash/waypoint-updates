@@ -1,0 +1,36 @@
+{
+  "name": "Waypoint",
+  "identifier": "com.zandstrading.waypoint.source",
+  "sourceURL": "https://raw.githubusercontent.com/zandstrading1-hash/waypoint-updates/main/source.json",
+  "iconURL": "https://raw.githubusercontent.com/zandstrading1-hash/waypoint-updates/main/icon.png",
+  "tintColor": "065744",
+  "apps": [
+    {
+      "name": "Waypoint",
+      "bundleIdentifier": "com.zandstrading.waypoint.phone",
+      "developerName": "Waypoint",
+      "localizedDescription": "Personal location planning, timed holds and continuous area walking.",
+      "iconURL": "https://raw.githubusercontent.com/zandstrading1-hash/waypoint-updates/main/icon.png",
+      "tintColor": "065744",
+      "versions": [
+        {
+          "version": "0.1.6",
+          "date": "2026-10-01",
+          "localizedDescription": "Adds a no-location Wi-Fi/cellular connection check. Includes continuous area walking, a scrolling options panel, and corrected Light/Dark appearance. Cellular startup and restoration remain unreliable. Stop and restore before updating the existing app. Free signing still needs weekly refresh.",
+          "downloadURL": "https://raw.githubusercontent.com/zandstrading1-hash/waypoint-updates/main/WaypointPhone-0.1.6-64ae3df22652.ipa",
+          "size": 2363838,
+          "minOSVersion": "17.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Connect to this iPhone's developer service through its local VPN.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Keep your explicitly started location session running in the background until you stop it.",
+          "NSLocationWhenInUseUsageDescription": "Keep your explicitly started location session running when you leave Waypoint."
+        }
+      }
+    }
+  ],
+  "news": []
+}
